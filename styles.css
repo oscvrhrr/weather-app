@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#location, #temperature, #description {
+    margin-bottom: 10px;
+}
+
+#icon {
+    margin-top: 20px;
+}
+
+/* weather widget component */
+
+.weather-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.location {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.datetime {
+    margin-bottom: 15px;
+}
+
+.date, .time {
+    font-size: 18px;
+    margin: 0;
+}
+
+.temperature, .humidity {
+    margin-top: 15px;
+}
+
+.temp-label, .humidity-label {
+    font-weight: bold;
+    margin: 0;
+}
+
+.temp, .humidity-value {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+
+
