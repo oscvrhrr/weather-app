@@ -1,7 +1,7 @@
 const buttonValue =  document.getElementById('search-btn');
 const inputValue = document.getElementById('location-input');
 const locationElement = document.getElementsByClassName('location')[0];
-
+const displayF = document.getElementsByClassName('temp')[0];
 
 buttonValue.addEventListener('click', () => {
     const city = inputValue.value;
@@ -10,7 +10,7 @@ buttonValue.addEventListener('click', () => {
         .then((response) => response.json())
         .then((response) => {
             console.log(response);
-            locationElement.textContent = response.current.temp_f
+            displayF.textContent = response.current.temp_f + ' F'
             
         })
     
